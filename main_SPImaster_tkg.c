@@ -1,5 +1,6 @@
 
 // Author : Tor K. Gjerde
+// changes made from the original file = none, just this text. 
 
 #define F_CPU 16000000UL
 
@@ -16,7 +17,7 @@ int main(void)
 	//-------------INITs--------------
 	SPI_init_master(); 
 	
-   //------------ EVENT LOOP ------------------- 
+   //------------ EVENT LOOP ------------------------ 
     while (1) 
     {
 		uint8_t i = 0; 
